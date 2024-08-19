@@ -1,0 +1,79 @@
+.body{
+    background-color:rgb(24, 25, 26);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.midBody{
+    max-width: 700px;
+    margin: auto;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 4%;
+    background-color: rgb(24, 25, 26);
+}
+.body nav .text{
+    display: flex;
+    gap: 10px;
+}
+.body nav a{
+    text-decoration: none;
+}
+.downarea{
+    bottom: 2%;
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(24, 25, 26);
+    border-radius: 10px;
+}
+.downarea input{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 40vh;
+    height: 2vh;
+    padding: 1.5vh;
+    margin: 1vh;
+}
+.downarea button{
+    color: black;
+    width: 20vh;
+    left: 20%;
+    transform: translateX(60%);
+    border: none;
+    padding: 1vh;
+}
+.downarea button:hover{
+    background-color: rgb(172, 172, 172);
+}
+.msgarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(20, 20, 20);
+    overflow:auto;
+}
+.msgarea p{
+    margin-inline: 2vh;
+    padding: 2vh;
+}
+hr{
+    width: 60%;
+    opacity: 40%;
+}
